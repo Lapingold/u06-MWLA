@@ -46,6 +46,8 @@ htmlcov/
 .cache
 nosetests.xml
 coverage.xml
+*.xml
+*.iml
 *.cover
 *.py,cover
 .hypothesis/
@@ -127,3 +129,15 @@ dmypy.json
 
 # Pyre type checker
 .pyre/
+
+# docker
+docker-compose.yaml
+
+# customize
+config/main_config.py
+config/bot_config.py
+template_files/
+practice/
+.idea/
+logs/
+.logs/
